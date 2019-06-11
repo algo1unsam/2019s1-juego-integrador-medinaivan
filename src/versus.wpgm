@@ -1,6 +1,12 @@
 /** First Wollok example */
-object wollok {
-	method howAreYou() {
-		return 'I am Wolloktastic!'
-	}
+import wollok.game.*
+
+program versus {
+	game.title("1 vs 1 by Ivan Medina")
+	game.height(10)
+	game.width(13)
+	game.ground("suelo.png")
+	
+//	START
+	game.start()
 }
